@@ -1,136 +1,101 @@
-/* @import "tailwindcss"; */
-/* nav style */
-
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .noto {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.li a {
-    /* list-style: none; */
-    text-decoration: none;
-    color: black;
-}
-.header {
-    max-width: 1140px;
-    margin: 30px auto 120px auto;
-    /* justify-content: space-between; */
-}
-.home{
-    font-size: 1rem;
-    font-weight: 700;
-    color: #252432;
-}
-.list{
+
+/* shared styles */
+.secondary-text {
     color: #8987A1;
 }
-.nav-items {
+
+/* nav styles */
+header {
+    max-width: 1140px;
+    margin: 30px auto 120px auto;
+    /* background-color: aqua; */
+}
+
+.flex {
     display: flex;
+}
+
+.icon-text {
     align-items: center;
+    margin-left: 48px;
+}
+
+.nav-text {
+    margin-left: 10px;
+}
+
+.nav-items {
     justify-content: space-between;
+    /* background-color: aqua; */
 }
 
 .list-items {
     list-style: none;
     text-decoration: none;
-    display: flex;
-    gap: 48px;
+    color: black;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
 }
 
-
-
-.icon-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.link {
+    margin-left: 48px;
 }
 
 .hero-flower-container {
+    /* background-color: beige; */
     margin-top: 120px;
-    display: flex;
     justify-content: space-between;
 }
 
 .flower-text {
-    padding-top: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-
-.nav-img {
-    width: 100%;
+.fresh-flower-imeage{
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .fresh-flower-imeage {
-    padding-top: 106px;
-    image-orientation: bottom left;
+    max-width: 100%;
 }
 
-/* cards styles */
-main {
-    max-width: 1140px;
-    margin: 120px auto 210px auto;
+.fresh {
+    color: #E95A08;
+    font-size:4rem;
+    font-weight: 700;
 }
+.always {
+    color: black;
+}
+/* header part done with responsiveness */
+@media only screen and (max-width: 393.18px) {
+  li, a{
+   display: none;
+  }
+ 
+  .hero-flower-container{
+    flex-direction: column-reverse;
+  }
+  .fresh{
+    font-size: 2rem;
+  }
 
-.plant-card-info {
-    text-align: center;
 }
-
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-
-/* badge styles*/
-.badge-item {
-    max-width: 1140px;
-    max-height: 597px;
-    display: flex;
-    gap: 60px;
-    /* justify-content: space-between; */
-    background-color: aqua;
-    margin: 210px auto 134px auto;
-    /* align-items: center; */
-}
-
-.badge-img {
-    background-color: blue;
-    max-width: calc(50%-30px) ;
-    height: auto;
-    max-width: 540px;
-    max-height: 597px;
-    /* border-radius: 1px solid black; */
-}
-.badge-text {
-    max-width:50% ;
-}
-.trusted-badge{
-    /* display:inline; */
-    /* background-color: aquamarine; */
-    max-width: 286px;
-    max-height: 286px;
-    margin-top: -700px;
-    margin-left: -210px;
-    margin-right: -500px;
-}
-
-/* deals styles */
-.deals{
-text-align: center;
-}
-.deals-img-portion{
-    display: flex;
-    gap:28px ;
-}
-

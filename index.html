@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styless.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,49 +15,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Document</title>
-</head>
+    <title>Demo</title>
 
 <body>
-    <header class="header">
-        <nav class="nav-items inter">
+    <header>
+        <nav class="nav-items flex">
             <div class="nav-img"><img src="assets/logo.png" alt=""></div>
-            <div>
-                <ul class="list-items">
-                    <div >
-                        <li  class="home"><a href="">Home</a></li>
-                    </div>
-                    <div >
-                        <li  ><a class="list" href="">Shop</a></li>
-                    </div>
-                    <div>
-                        <li><a class="list" href="">About us</a></li>
-                    </div>
-                    <div class="icon-text">
+            <div class="list-cart">
+                <ul class="list-items flex inter">
+                    <li><a class="link " href=""></a>Home</li>
+                    <li><a class="link secondary-text" href=""></a>Shop</li>
+                    <li><a class="link secondary-text" href=""></a>About us</li>
+                    <div class="icon-text flex"> 
                         <div class="nav-img">
                             <li><img src="assets/cart.png" alt=""></li>
                         </div>
                         <div class="nav-text">
-                            <div>
-                                <li>
-                                    <p>Cart ($56)</p>
-                                </li>
-                            </div>
+                            <p>Cart ($56)</p>
                         </div>
                     </div>
                 </ul>
             </div>
         </nav>
-        <div class="hero-flower-container">
+        <!-- bg-img -->
+         <div class="hero-flower-container flex">
             <div class="flower-text">
-                <div class="always-fresh">
-                    <h1>ALWAYS FRESH</h1>
-                </div>
-                <div class="fresh-flower">
-                    <h1>FLOWERS</h1>
+                <div class="always-fresh noto">
+                    <h1> <span class="always fresh">ALWAYS </span> <span class="fresh">FRESH <br>FLOWERS </span> </h1>
                 </div>
                 <div class="flower-paragraph">
-                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    <p class="nav-img-des secondary-text ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
                         exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
                 </div>
             </div>
@@ -65,8 +52,10 @@
                 <img src="assets/hero-flower.png" alt="">
             </div>
         </div>
+        <!-- header part done with responsive style -->
     </header>
-    <main class="main">
+
+   <main class="main">
         <div class="plant-card-info">
             <div class="our-plants">
                 <h2>Our Plants</h2>
@@ -169,7 +158,7 @@
 
 
         </section>
-        <!-- <section class="deals">
+        <section class="deals">
             <h3 class="deals-title">Latest Deals</h3>
             <p class="deals-description">Indulge your senses with the beauty and fragrance of our fresh flower shop.
                 From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -188,14 +177,11 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
     </main>
 
-
-    <footer>
-
-    </footer>
+    <footer></footer>
 </body>
 
 </html>
