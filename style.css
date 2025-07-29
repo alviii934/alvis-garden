@@ -206,7 +206,8 @@ header {
     margin-bottom: 25px;
 }
 
-.img1, .img2 {
+.img1,
+.img2 {
     border-radius: 14px;
     border: none;
 }
@@ -215,6 +216,69 @@ header {
     border-radius: 24px;
     border: none;
 }
+
+/* main third part done  */
+
+.bg {
+    color: #8987A1;
+}
+
+.join {
+    background-image: url("assets/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* margin: 199px  305px 193px 305px; */
+    /* max-width: 1440px; */
+}
+
+.f-head {
+
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    /* padding: 150px auto; */
+}
+
+.mail-subs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 23px;
+}
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.emaill {
+    background-color: #ffffff;
+    padding: 19px 53.5px;
+    color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.subscribes {
+    padding: 19px 53.5px;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #E95A08;
+}
+
 
 /* header  */
 @media only screen and (max-width: 430px) {
@@ -283,9 +347,11 @@ header {
         flex-direction: column;
         margin-left: 100px;
     }
-    .deals{
+
+    .deals {
         margin-left: 120px;
     }
+
     .big-img {
         max-width: 360px;
     }
