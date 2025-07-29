@@ -154,30 +154,67 @@ header {
     font-size: 1rem;
     /* color: rgba(0, 0, 0, 0.5) */
 }
+
 /* main first part done  */
 
-.badge-item{
+.badge-item {
     margin-top: 200px;
     display: flex;
     /* gap: 60px; */
 }
-.badge-title{
+
+.badge-title {
     color: black;
     font-size: 50px;
     font-weight: 700;
 }
-.trusted-badge{
-    width:286px ;
+
+.trusted-badge {
+    width: 286px;
     height: 286px;
 }
 
-.badge{
-    margin-top:-100px ;
-    margin-bottom:0px;
-    margin-right:00px;
-    margin-left:-200px;
+.badge {
+    margin-top: -100px;
+    margin-bottom: 0px;
+    margin-right: 00px;
+    margin-left: -200px;
 }
 
+/* main second part done  */
+
+.latest-deals {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.latest {
+    color: #E95A08;
+}
+
+.deals {
+    text-align: center;
+}
+
+.deals-img-portion {
+    display: flex;
+    margin-top: 120px;
+    gap: 28px;
+}
+
+.img1 {
+    margin-bottom: 25px;
+}
+
+.img1, .img2 {
+    border-radius: 14px;
+    border: none;
+}
+
+.big-img {
+    border-radius: 24px;
+    border: none;
+}
 
 /* header  */
 @media only screen and (max-width: 430px) {
@@ -202,7 +239,7 @@ header {
     .flower-text {
         display: block;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         text-align: center;
         margin-left: 120px;
     }
@@ -210,7 +247,7 @@ header {
     .fresh-flower-imeage {
         display: block;
         flex-direction: column;
-        justify-content:space-between;
+        justify-content: space-between;
         padding-right: 20px;
 
     }
@@ -222,18 +259,34 @@ header {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-    .plant-card-info{
-        margin-left:150px;
+
+    .plant-card-info {
+        margin-left: 150px;
     }
 
 }
+
 /* main second */
 @media only screen and (max-width: 430px) {
-.badge{
-    display: none;
-}
-.badge-item{
-    flex-direction: column;
+    .badge {
+        display: none;
+    }
+
+    .badge-item {
+        flex-direction: column;
+    }
 }
 
+/* main third */
+@media only screen and (max-width: 430px) {
+    .deals-img-portion {
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .deals{
+        margin-left: 120px;
+    }
+    .big-img {
+        max-width: 360px;
+    }
 }
