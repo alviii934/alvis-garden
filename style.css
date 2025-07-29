@@ -154,12 +154,35 @@ header {
     font-size: 1rem;
     /* color: rgba(0, 0, 0, 0.5) */
 }
+/* main first part done  */
+
+.badge-item{
+    margin-top: 200px;
+    display: flex;
+    /* gap: 60px; */
+}
+.badge-title{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+.trusted-badge{
+    width:286px ;
+    height: 286px;
+}
+
+.badge{
+    margin-top:-100px ;
+    margin-bottom:0px;
+    margin-right:00px;
+    margin-left:-200px;
+}
+
 
 /* header  */
 @media only screen and (max-width: 430px) {
 
-    li,
-    a {
+    .link {
         display: none;
     }
 
@@ -177,10 +200,8 @@ header {
     }
 
     .flower-text {
-        /* display: flex; */
         display: block;
         flex-direction: column;
-        /* justify-content: flex-end; */
         justify-content:center;
         text-align: center;
         margin-left: 120px;
@@ -188,9 +209,7 @@ header {
 
     .fresh-flower-imeage {
         display: block;
-        /* display: flex; */
         flex-direction: column;
-        /* justify-content: flex-end; */
         justify-content:space-between;
         padding-right: 20px;
 
@@ -203,12 +222,18 @@ header {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-
-    .main {
-        /* margin: 0px 0px 0px 0px; */
-    }
     .plant-card-info{
         margin-left:150px;
     }
+
+}
+/* main second */
+@media only screen and (max-width: 430px) {
+.badge{
+    display: none;
+}
+.badge-item{
+    flex-direction: column;
+}
 
 }
