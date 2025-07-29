@@ -1,0 +1,136 @@
+/* @import "tailwindcss"; */
+/* nav style */
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.li a {
+    /* list-style: none; */
+    text-decoration: none;
+    color: black;
+}
+.header {
+    max-width: 1140px;
+    margin: 30px auto 120px auto;
+    /* justify-content: space-between; */
+}
+.home{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #252432;
+}
+.list{
+    color: #8987A1;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-items {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-flower-container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower-text {
+    padding-top: 162px;
+}
+
+.nav-img {
+    width: 100%;
+}
+
+.fresh-flower-imeage {
+    padding-top: 106px;
+    image-orientation: bottom left;
+}
+
+/* cards styles */
+main {
+    max-width: 1140px;
+    margin: 120px auto 210px auto;
+}
+
+.plant-card-info {
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* badge styles*/
+.badge-item {
+    max-width: 1140px;
+    max-height: 597px;
+    display: flex;
+    gap: 60px;
+    /* justify-content: space-between; */
+    background-color: aqua;
+    margin: 210px auto 134px auto;
+    /* align-items: center; */
+}
+
+.badge-img {
+    background-color: blue;
+    max-width: calc(50%-30px) ;
+    height: auto;
+    max-width: 540px;
+    max-height: 597px;
+    /* border-radius: 1px solid black; */
+}
+.badge-text {
+    max-width:50% ;
+}
+.trusted-badge{
+    /* display:inline; */
+    /* background-color: aquamarine; */
+    max-width: 286px;
+    max-height: 286px;
+    margin-top: -700px;
+    margin-left: -210px;
+    margin-right: -500px;
+}
+
+/* deals styles */
+.deals{
+text-align: center;
+}
+.deals-img-portion{
+    display: flex;
+    gap:28px ;
+}
+
