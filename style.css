@@ -334,12 +334,36 @@ header {
 }
 
 
+/* footer lasr */
+.foot-container {
+    max-width: 1120px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.foot-list-container li {
+    list-style: none;
+
+}
+
+.foot-list-container {
+    margin-right: 100px;
+    display: flex;
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-logo {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
 /* header  */
 @media only screen and (max-width: 470px) {
-    body {
-        margin-left: 20px;
-    }
-
     .link {
         display: none;
     }
@@ -484,4 +508,38 @@ header {
      *body{
         margin-left: 50px;
      } */
+}
+
+/* footer last part */
+@media only screen and (max-width: 470px) {
+    .foot-container {
+        max-width: 1120px;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .foot-list-container {
+        margin-right:1px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .foot-logo {
+        display: flex;
+        gap: 24px;
+        justify-content: space-evenly;
+    }
+    .foot-img-text{
+        margin: 30px auto;
+    }
+    .flower-and-plants-lover{
+        font-size: 24px;
+        margin-left: 20px;
+    }
 }
