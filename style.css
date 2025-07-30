@@ -206,6 +206,7 @@ header {
     margin-bottom: 25px;
 }
 
+
 .img1,
 .img2 {
     border-radius: 14px;
@@ -217,27 +218,77 @@ header {
     border: none;
 }
 
-/* main third part done  */
-
-.bg {
-    color: #8987A1;
+/* two small imeage middle text styles */
+.img-1container {
+    position: relative;
 }
 
-.join {
-    background-image: url("assets/news-letter-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
+.text-1 {
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
-    /* margin: 199px  305px 193px 305px; */
-    /* max-width: 1440px; */
+    position: absolute;
+    top: 52px;
+    left: 90px;
+    z-index: 0.5;
 }
 
+.img-2container {
+    position: relative;
+}
+
+.text-2 {
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    left: 90px;
+}
+
+.offer {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.shop-now {
+    font-weight: 700;
+    font-size: 1em;
+    padding: 26px auto;
+    color: white;
+}
+
+/* img big middle text style */
+.big-img-container {
+    position: relative;
+}
+
+.offer-text {
+    text-align: center;
+    position: absolute;
+    bottom: 120px;
+    left: 170px;
+}
+
+.big-offer {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.shop-now2 {
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 600px;
+}
+
+/* main third part done  */
+.join {
+    max-width: 100%;
+    margin: 100px auto 100px auto;
+    position: relative;
+}
+.form-item{
+    position:absolute;
+    margin-top: 3300px;
+
+}
 .f-head {
 
     flex-direction: column;
@@ -260,6 +311,7 @@ footer {
     display: flex;
     gap: 100px;
 }
+
 .emaill {
     background-color: #ffffff;
     padding: 19px 53.5px;
